@@ -1,0 +1,454 @@
+.top-header {
+    background-color: black;
+}
+
+.top-header ul li a {
+    color: white;
+}
+
+.top-header ul li a:hover {
+    color: white;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://spanidea.com/wp-content/uploads/2015/11/home-banner-11-scaled.jpg");
+    width: 1519px;
+    height: 871px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    /* width: 100%; */
+}
+
+.topnav a img {
+    height: 44px;
+    width: 246px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+/* Navbar links */
+.topnav .navbar ol {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    position: absolute;
+    right: 0%;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 70px;
+    margin-right: 100px;
+}
+
+.topnav .navbar ol li a {
+    color: white;
+}
+
+.topnav .navbar ol li i {
+    font-size: 30px;
+    color: white;
+}
+
+.topnav .navbar ol li:hover {
+    background-color: rgb(110, 177, 232);
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.topnav .navbar ol li:last-child {
+    background-color: transparent !important;
+}
+
+.main-head h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    height: 68px;
+    width: 660px;
+    margin-left: 200px;
+    margin-top: 210px;
+    font-size: 32px;
+}
+
+.para {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 76px;
+    width: 660px;
+    margin-left: 200px;
+}
+
+.sec-bg-img {
+
+    background-color: rgb(233, 233, 233);
+}
+
+.sec-bg-img .sec-head h2 {
+    font-size: 32px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.sec-bg-img .sec-para {
+    font-size: 16px;
+    margin-left: 200px;
+    margin-right: 390px;
+   
+}
+
+.sec-bg-img .images {
+    margin-left: 210px;
+}
+
+.sec-bg-img .images img:hover{
+    opacity: 0.5;
+}
+
+.sec-bg-img .images img {
+    height: 262.2px;
+    width: 350px;
+    min-height: 100%;
+    min-width: auto;
+    position: relative;
+    padding: 28px 28px 28px 28px;
+}
+
+.sec-bg-img .thr-head h2 {
+    font-size: 32px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.sec-bg-img .images-2 {
+    margin-left: 210px;
+}
+
+.sec-bg-img .images-2 img {
+    height: 262.2px;
+    width: 350px;
+    min-height: 100%;
+    min-width: auto;
+    position: relative;
+    padding: 28px 28px 28px 28px;
+}
+
+.thr-bg-img {
+    background: url('https://imageio.forbes.com/specials-images/imageserve/5f282315f48daeb3a6621465/0x0.jpg?format=jpg&crop=876,493,x0,y26,safe&width=1200');
+    height: 468px;
+    width: 1518px;
+    opacity:0.8;
+    position: relative;
+}
+.images-2 img:hover{
+    opacity: 0.5;
+}
+.thr-bg-img .thr-head h2 {
+    color: white;
+    font-size: 32px;
+    padding-top: 180px;
+    padding-left: 200px;
+}
+
+.thr-bg-img paraa {
+    color: white;
+    font-size: 16px;
+    height: 76px;
+    width: 660px;
+    position: relative;
+    margin-left: 500px;
+}
+
+.thr-bg-img .thr-para p {
+    margin-left: 200px;
+    color: white;
+}
+
+.thr-bg-img .btn {
+    border-radius: 2px;
+    border: 2px solid grey;
+    background-color: transparent;
+    /* float: right; */
+    /* margin-right: 450px; */
+    position: absolute;
+    bottom: 191px;
+    left: 1086px;
+    width: 104px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.thr-bg-img .btn:hover {
+    border-radius: 2px;
+    border: 2px solid rgb(6, 179, 242);
+    background-color: rgb(6, 179, 242);
+}
+
+.forth-bg-img {
+    height: 704px;
+    width: 1518px;
+    background-image: url('https://www.biopharma-reporter.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/pharmaceutical-science/biopharma-reporter.com/article/2020/12/02/merck-transcenta-partner-to-advance-continuous-biomanufacturing-of-protein-therapeutics/11995770-5-eng-GB/Merck-Transcenta-partner-to-advance-continuous-biomanufacturing-of-protein-therapeutics.jpg');
+}
+
+.forth-bg-img .forth-head h2 {
+    font-size: 32px;
+    padding-top: 100px;
+    padding-left: 200px;
+    color: white;
+}
+
+.forth-bg-img .forth-head h3 {
+    font-size: 22px;
+    padding-left: 200px;
+    color: white;
+}
+
+.forth-bg-img .forth-head p {
+    font-size: 16px;
+    margin-left: 200px;
+    /* margin-right: 390px; */
+    color: white;
+    height: 76px;
+    width: 380px;
+}
+
+.forth-bg-img .icons{
+    /* color: white; */
+    font-size: 50px;
+    background-color: transparent;
+    position: absolute;
+}
+/* 
+/* .forth-bg-img .icons .container .row .col-6 .i-1,.i-2,.i-3,.i-4,.i-5,.i-6,.i-7,.i-8,.i-9{
+       width: 33%;
+}  */
+
+.colClass {
+    display: flex;
+    justify-content: center
+}
+.forth-bg-img .row{
+    color: rgb(221, 221, 221);
+    padding-left:700px ;
+    position: relative;
+    bottom: 50px;
+}
+.forth-bg-img .row .i-1{
+    width: 33%;
+    margin-top: 155px;
+    border: 1px solid gray;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+    margin-bottom: 14px;
+}
+.forth-bg-img .row .i-2{
+    width: 33%;
+    margin-top: 155px;
+    border: 1px solid grey;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+}
+.forth-bg-img .row .i-3{
+    width: 33%;
+    margin-top: 155px;
+    border: 1px solid grey;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+}
+
+.forth-bg-img .row .i-4{
+    width: 33%;
+    /* margin-top: 355px; */
+    border: 1px solid grey;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+    margin-bottom: 14px;
+}
+.forth-bg-img .row .i-5{
+    width: 33%;
+    /* margin-top: 355px; */
+    border: 1px solid grey;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+}
+.forth-bg-img .row .i-6{
+    width: 33%;
+    /* margin-top: 355px; */
+    border: 1px solid grey;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+}
+.forth-bg-img .row .i-7{
+    width: 33%;
+    /* margin-top: 455px; */
+    border: 1px solid grey;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+    margin-bottom: 14px;
+}
+.forth-bg-img .row .i-8{
+    width: 33%;
+    /* margin-top: 455px; */
+    border: 1px solid grey;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+}
+.forth-bg-img .row .i-9{
+    width: 33%;
+    /* margin-top: 455px; */
+    border: 1px solid grey;
+    justify-content: center;
+    height: 166px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    margin-right:12px;
+}
+.fifth-head{
+    height: 160px;
+    width: 1519px;
+    background-color: rgb(235, 235, 235);
+}
+.fifth-head h2{
+    margin-left:180px;
+    margin-top: 70px;
+    position: absolute;
+}
+.fifth-head .btn{
+    margin-right: 179px;
+    float: right;
+    margin-top: 64px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+footer{
+    background-color: rgb(35, 35, 35);
+    height: 425px;
+    width: 1519px;
+}
+
+.foot-logo{
+    border-right: 1px solid grey;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+footer .foot-logo img{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 40px;
+    width: 233px;
+}
+
+.foot-logo .sixth-head{
+    color: white;
+    font-size: 14px;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+.foot-logo .social{
+    font-size: 28px;
+    margin-left: 0px;
+    padding-top: 10px;
+    color: white;
+}
+
+.services h2{
+    font-size: 20px;
+}
+.services{
+    float: left;
+    color: white;
+    margin-left: 0px;
+    border-right: 1px solid grey;
+    height: 150px;
+    padding-right: 85px;
+    margin-top: 100px;
+    margin-top: 100px;
+}
+
+.about-us h2{
+    font-size: 20px;
+}
+.about-us{
+    float: left;
+    border-right: 1px solid grey;
+    color: white;
+    margin-left:-95px;
+    padding-right: 85px;
+    margin-top: 100px;
+}
+
+.latest-news h2{
+    font-size: 20px;
+}
+.latest-news{
+    float: left;
+    color: white;
+    margin-left: -69px;
+    margin-top: 100px;
+    margin-right: 106px;
+}
+
+.copyright h4{
+     color: white;
+     font-size: 15px;
+     margin-top: 100px;
+     text-align: center;
+}
+
+.terms h4{
+    color: rgb(12, 172, 246);
+     font-size: 15px;
+     margin-top: 12px;
+     text-align: center;
+     cursor: pointer;
+}
